@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+    background: rgb(201, 198, 198);
+    margin: 0;
+}
+
+.menu-css {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 0;
+    list-style-type: none;
+    background-color: #4d5a62;
+    font-size: 12px;
+	width:500px;
+}
+
+.menu-css li {
+    float:left;
+	height:150px;	
+}
+
+.menu-css li a {
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+    line-height: 240px;
+    color: #ffffff; 
+	height:150px;
+}
+
+.menu-css li:last-child a {
+	border: none;
+}
+	
+.menu-css li a:hover {
+    background-color: #024069;
+    color: #FFF;
+    padding: 0 12px;
+}
+
+.menu-css li a:active {
+    background-color: #fff;
+    color: #333;
+    padding: 0 18px;
+}
+
+.menu-css li a {
+    /* Animation (Webkit, Gecko & Mozilla) */
+    -webkit-transition-duration: 0.20s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-duration: 0.20s;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-duration: 0.20s;
+    -o-transition-timing-function: ease-out;
+}
+
